@@ -24,6 +24,24 @@ module.exports = function (grunt) {
             "main": "characters-and-numbers",
             "global": "superscript"
         },
+        "watch": {
+            "js": {
+                "files": [
+                    "<%= config.main %>.js"
+                ],
+                "tasks": ["jshint"]
+            }
+        },
+        "jshint": {
+            "options": {
+                "jshintrc": ".jshintrc",
+                "reporter": require("jshint-stylish")
+            },
+            "all": [
+                "Gruntfile.js",
+                "<%= config.main %>.js"
+            ]
+        },
         "babel": {
             "options": {
                 "sourceMap": true
