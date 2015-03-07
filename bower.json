@@ -16,8 +16,5 @@
     "bower_components",
     "test",
     "tests"
-  ],
-  "dependencies": {
-    "map-characters": "~0.1.0"
-  }
+  ]
 }
