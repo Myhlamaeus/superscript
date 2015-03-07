@@ -41,8 +41,7 @@ const toSuperscript = Object.freeze(Object.assign(function toSuperscript(string)
     })),
     add = function(from, to, offset) {
         const range = characterRange(from, to),
-            fromCodePoint = from.charCodeAt(0),
-            toCodePoint = to.charCodeAt(0);
+            fromCodePoint = from.charCodeAt(0);
 
         for(let sym of range) {
             toSuperscript.symbols[sym] = String.fromCodePoint(sym.charCodeAt(0) - fromCodePoint + offset);
