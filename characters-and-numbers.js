@@ -1,4 +1,4 @@
-import characterRange from "./bower_components/character-range/character-range.es6";
+import characterRange from "./bower_components/character-range/character-range";
 import mapCharacters from "./bower_components/map-characters/map-characters.es6";
 
 const toSuperscript = Object.freeze(Object.assign(function toSuperscript(string) {
