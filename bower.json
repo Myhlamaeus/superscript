@@ -18,7 +18,6 @@
     "tests"
   ],
   "dependencies": {
-    "character-range": "~0.3.0",
     "map-characters": "~0.1.0"
   }
 }
