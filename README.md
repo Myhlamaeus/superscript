@@ -1,1 +1,1 @@
-# superscript [![Code Climate](https://codeclimate.com/github/ileri/superscript/badges/gpa.svg)](https://codeclimate.com/github/ileri/superscript)
+# superscript [![Build Status](https://travis-ci.org/ileri/superscript.svg?branch=master)](https://travis-ci.org/ileri/superscript) [![Code Climate](https://codeclimate.com/github/ileri/superscript/badges/gpa.svg)](https://codeclimate.com/github/ileri/superscript)
